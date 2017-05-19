@@ -18,6 +18,6 @@ import org.springframework.context.annotation.Configuration;
 public class DubboConfig extends DubboBasedAutoConfiguration {
     @Bean
     public ReferenceBean provider() {
-        return getConsumerBean(Provider.class, "", 100);
+        return getConsumerBean(Provider.class, "", 10000);
     }
 }

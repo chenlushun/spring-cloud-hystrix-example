@@ -2,6 +2,29 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$USER_HOME$/yc-code/demo" vcs="Git" />
+    <mapping directory="$USER_HOME$/yc-code/ytx-account" vcs="Git" />
+    <mapping directory="$USER_HOME$/yc-code/ytx-activity" vcs="Git" />
+    <mapping directory="$USER_HOME$/yc-code/ytx-brand" vcs="Git" />
+    <mapping directory="$USER_HOME$/yc-code/ytx-buyer" vcs="Git" />
+    <mapping directory="$USER_HOME$/yc-code/ytx-common" vcs="Git" />
+    <mapping directory="$USER_HOME$/yc-code/ytx-coupon" vcs="Git" />
+    <mapping directory="$USER_HOME$/yc-code/ytx-crm" vcs="Git" />
+    <mapping directory="$USER_HOME$/yc-code/ytx-delivery" vcs="Git" />
+    <mapping directory="$USER_HOME$/yc-code/ytx-dispute" vcs="Git" />
+    <mapping directory="$USER_HOME$/yc-code/ytx-financing" vcs="Git" />
+    <mapping directory="$USER_HOME$/yc-code/ytx-invoice" vcs="Git" />
+    <mapping directory="$USER_HOME$/yc-code/ytx-item" vcs="Git" />
+    <mapping directory="$USER_HOME$/yc-code/ytx-marketing-aggregating-service" vcs="Git" />
+    <mapping directory="$USER_HOME$/yc-code/ytx-maven" vcs="Git" />
+    <mapping directory="$USER_HOME$/yc-code/ytx-money-off" vcs="Git" />
+    <mapping directory="$USER_HOME$/yc-code/ytx-points" vcs="Git" />
+    <mapping directory="$USER_HOME$/yc-code/ytx-promotion-rule" vcs="Git" />
+    <mapping directory="$USER_HOME$/yc-code/ytx-redbag" vcs="Git" />
+    <mapping directory="$USER_HOME$/yc-code/ytx-seller" vcs="Git" />
+    <mapping directory="$USER_HOME$/yc-code/ytx-shoppingcart" vcs="Git" />
+    <mapping directory="$USER_HOME$/yc-code/ytx-trade" vcs="Git" />
+    <mapping directory="$USER_HOME$/yc-code/ytx-trade-aggregating-service" vcs="Git" />
+    <mapping directory="$USER_HOME$/yc-code/ytx-trade-mobile-server" vcs="Git" />
+    <mapping directory="$USER_HOME$/yc-code/ytx-user" vcs="Git" />
   </component>
 </project>

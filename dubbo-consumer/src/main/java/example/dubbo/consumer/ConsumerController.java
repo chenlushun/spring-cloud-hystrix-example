@@ -17,15 +17,28 @@ public class ConsumerController {
     @Autowired
     private Provider provider;
 
-    @RequestMapping
-    @HystrixCommand(fallbackMethod = "isError")
-    public Object demo(String name) {
-        System.out.println(name);
+    @RequestMapping("A")
+    @HystrixCommand(fallbackMethod = "isErrorA")
+    public Object demoA(String name) {
+        //构造异常情况，name为null
+        System.out.println(name.endsWith("ios"));
         return provider.sayHello(name);
     }
 
-    public String isError(String name) {
-        return "sorry,error occurrence! name is " + name;
+    public String isErrorA(String name) {
+        return "sorry,errorA occurrence! name is " + name;
+    }
+
+    @RequestMapping("B")
+    @HystrixCommand(fallbackMethod = "isErrorB", ignoreExceptions = {NullPointerException.class})
+    public Object demoB(String name) {
+        //构造异常情况，name为null
+        // System.out.println(name.endsWith("ios"));
+        return provider.sayHello(name);
+    }
+
+    public String isErrorB(String name) {
+        return "sorry,errorB occurrence! name is " + name;
     }
 
 }

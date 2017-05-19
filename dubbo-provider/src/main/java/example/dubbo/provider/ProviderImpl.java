@@ -17,6 +17,13 @@ public class ProviderImpl implements Provider {
 
     @Override
     public String sayHello(String name) {
+        name.endsWith("java");
+        try {
+            Thread.sleep(200L);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        System.out.println(name);
         return new Date() + ":" + name;
     }
 }

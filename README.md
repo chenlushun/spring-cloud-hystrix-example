@@ -3,6 +3,9 @@ Use hystrix‘s example
 
 Netflix has created a library called Hystrix that implements the circuit breaker pattern. In a microservice architecture it is common to have multiple layers of service calls.
 
+## featrue
+
+* 服务调用异常，走异常处理方法
 
 ## chinese describe
 使用断路器的一个简单实例
@@ -34,4 +37,6 @@ dubbo-consumer
     * dubbo3
     * spring-boot 1.5.2
     * spring-cloud Brixton.SR5
+## todo list
 
+* 异常发生时服务错误信息的打印
